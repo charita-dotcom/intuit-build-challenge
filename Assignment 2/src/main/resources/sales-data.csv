@@ -1,0 +1,9 @@
+Region,Product,SalesPerson,Date,UnitsSold,UnitPrice
+North,Widget,Alice,2024-01-05,10,20.0
+North,Gadget,Bob,2024-01-06,5,30.0
+South,Widget,Charlie,2024-01-07,8,20.0
+South,Gizmo,Alice,2024-01-08,2,50.0
+East,Widget,Bob,2024-01-09,7,20.0
+East,Gadget,Charlie,2024-01-10,3,30.0
+West,Widget,Alice,2024-01-11,4,20.0
+West,Gizmo,Bob,2024-01-12,1,50.0
