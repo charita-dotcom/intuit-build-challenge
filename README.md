@@ -17,14 +17,14 @@ This task demonstrates a custom BlockingQueue implemented with wait()/notifyAll(
 
 ### 1. Compile and run
 
-cd intuit-build-challenge/Assignment 1\
+cd intuit-build-challenge/Assignment\ 1\
 javac -cp "src" src/*.java\
 java -cp "src" ProducerConsumer
 
 ### 2. Compile and run tests
 
-javac -cp "src:test:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" src/\*.java test/\*.java\
-java -cp "src:test:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ProducerConsumerTest
+javac -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar" src/*.java test/*.java
+java -cp .:src:test:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore ProducerConsumerTest
 
 ### Sample Output
 (base) charitachalla@Charitas-MacBook-Air Assignment 1 % java -cp "src" ProducerConsumer\
@@ -96,7 +96,7 @@ West: 130.0\
 Top salesperson by revenue: Alice
 
 ### 3. Build and Run
-cd intuit-build-challenge/Assignment 2\
+cd intuit-build-challenge/Assignment\ 2\
 mvn clean install test\
 java src/main/java/Assignment2/src/Main.java src/main/resources/sales-data.csv
 
