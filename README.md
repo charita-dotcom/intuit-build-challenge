@@ -13,7 +13,7 @@ This task demonstrates a custom BlockingQueue implemented with wait()/notifyAll(
 
 - Java JDK 8+ installed (`java` and `javac` on your PATH)
 - `git` installed
-- JUnit 4.13.2 + Hamcrest 1.3 JARs
+- JUnit 4.13.2 + Hamcrest 1.3 JARs. You can download the JARs from https://jarcasting.com/. Place the downloaded JARs in Assignment 1/.
 
 ### 1. Compile and run
 
