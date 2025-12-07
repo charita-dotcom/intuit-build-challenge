@@ -23,7 +23,7 @@ java -cp "src" ProducerConsumer
 
 ### 2. Compile and run tests
 
-javac -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar" src/*.java test/*.java
+javac -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar" src/\*.java test/\*.java\
 java -cp .:src:test:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore ProducerConsumerTest
 
 ### Sample Output
